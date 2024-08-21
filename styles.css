@@ -1,0 +1,27 @@
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.python {width: 70%; background-color: chartreuse;} /*chartreuse*/
+.c {width: 20%; background-color: darkorange;} /*Dark Orange*/
+.cpp {width: 20%; background-color: darkmagenta;} /*Dark Magenta*/
+.mysql {width: 30%; background-color: maroon;} /*Maroon*/
+.html {width: 50%; background-color: #04AA6D;} /* Green */
+.css {width: 5%; background-color: #2196F3;} /* Blue */
+.vscode {width: 30%; background-color: #f44336;} /* Red */
+.mysqlworkshop {width: 15%; background-color: yellow;} /*Yellow*/
+.slack {width: 25%; background-color: #808080;} /* Dark Grey */
+.git {width: 50%; background-color: teal;} /*Teal*/
+.word {width: 40%; background-color: fuchsia;} /*Fuchsia*/

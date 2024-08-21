@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <title>Portfolio for Matthew Arney</title>
+        <link rel="stylesheet" href="styles.css"
     </head>
     <body>
         <header>
             <h1>Portfolio for Matthew Arney</h1>
             <p><h4>Hello there!</h4></p>
+            <img src="images/profile.jpg" alt="Profile Photo of Matthew Arney">
             <p>This portfolio is designed to show off some of the accomplishments of Matthew Arney, a former Pastry Chef looking to enter the tech space as a Software Engineer</p>
         </header>
         <nav>
@@ -19,20 +21,102 @@
         </nav>
         <main>
             <section id="about">
-
+                <p><h3>About Me</h3></p>
+                <article>
+                    <p>Hello there, my name is Matthew Arney and i've created this Portfolio to better show some of the skills i've aquired recently in the Coding Temple Software Engineering Course</p>
+                    <p>I'm a former Pastry Chef who's always been enamored with computers and technology as long as i can remember.</p>
+                    <p>In the late 2000s i earned a Certificate in Patisserie and Baking from Le Cordon Bleu International and continued a career in food service started in my late teens.</p>
+                    <p>Now i want to work my way up into operating system engineering and be a part of the continued advancements in how computers and technology are used by people around the world.</p>
+                </article>
+                <article>
+                    <h4>Education:</h4>
+                    <p>2003-2005 <a href="https://www.shsu.edu/">Sam Houston State University</a> Major in Computer Science (incomplete)</p>
+                    <p>2007-2008 <a href="https://www.culinaryschools.org/top-culinary-schools/texas-culinary-academy/">Texas Culinary Academy</a> Certificate in Patisserie and Baking</p>
+                    <p>2024-2024 <a href="https://www.codingtemple.com">Coding Temple Software Engineering Bootcamp</a> (ongoing)</p>
+                </article>
+                <article>
+                    <p>My personal interests include but are not limited to Model kit building, 3D modeling and animation, Game development, Vintage Hardware and Software and their preservation, Anime and Manga, Music and Music Production</p>
+                </article>
             </section>
             <section id="projects">
-
+                <h3>Projects</h3>
+                <p><h5>These projects and others are available at <a href="https://github.com/MArney86">MArney86 repository @ github.com</a></h5></p>
+                <article>
+                    <img src="images/contactmanagement.jpg" alt="Screenshot of the Contact Management App in VSCode">
+                    <p><a href="https://github.com/MArney86/CT_Mini_Project_Contact_Management_System">Contact Management System @ github.com</a></p>
+                    <p>A basic python app to manage and modify personal contacts with text file saving support</p>
+                </article>
+                <article>
+                    <img src="images/librarydb.jpg" alt="Screenshot of the Library Management with DB integration App in VSCode">
+                    <p><a href="https://github.com/MArney86/CT_Mini_Project_Library_Management_System_with_Database_Integration">Library Management System with Database Integration @ github.com</a></p>
+                    <p>A Library Management System using object-oriented design and database integration using MySQL and the MySQL Connector for Python</p>
+                </article>
+                <article>
+                    <img src="images/e-commerce-api.jpg" alt="Screenshot of the E-commerce API App in VSCode">
+                    <p><a href="https://github.com/MArney86/CT_Mini-Project_E-commerce_API">E-commerce API @ github.com</a></p>
+                    <p>A basice E-commerce API usint Flask, Marshmallow, and SQLAlchemy along with MySQL and the MySQL Connector for Python</p>
+                </article>
             </section>
             <section id="skills">
-
+                <h3>Skills</h3>
+                <p>Python</p>
+                <div class="container">
+                    <div class="skills python">70%</div>
+                </div>
+                <p>C</p>
+                <div class="container">
+                    <div class="skills c">20%</div>
+                </div>
+                <p>C++</p>
+                <div class="container">
+                    <div class="skills cpp">20%</div>
+                </div>
+                <p>MySQL</p>
+                <div class="container">
+                    <div class="skills mysql">30%</div>
+                </div>
+                <p>HTML</p>
+                <div class="container">
+                    <div class="skills html">50%</div>
+                </div>
+                <p>CSS</p>
+                <div class="container">
+                    <div class="skills css">5%</div>
+                </div>
+                <p>VSCode</p>
+                <div class="container">
+                    <div class="skills vscode">30%</div>
+                </div>
+                <p>MySQL Workshop</p>
+                <div class="container">
+                    <div class="skills mysqlworkshop">25%</div>
+                </div>
+                <p>Slack</p>
+                <div class="container">
+                    <div class="skills slack">25%</div>
+                </div>
+                <p>Git</p>
+                <div class="container">
+                    <div class="skills git">50%</div>
+                </div>
+                <p>Microsoft Word</p>
+                <div class="container">
+                    <div class="skills word">40%</div>
+                </div>
             </section>
             <section id="contact">
-                
+                <p><h3>Contact Me</h3></p>
+                <p>I can be contacted through <a href="mailto:matthew.h.arney.1986@gmail.com">Email or <a href="https://www.linkedin.com/in/matthew-arney-542027304/">LinkedIn</a></p>
+                <form action="\messages" method="post">
+                    <p>or by leaving a message here:</p>
+                    <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Please leave a message with your name and contact info if you want a reply"></textarea>
+                    <button type="reset">Reset</button>
+                    <button type="submit">Submit</button>
+                </form>
             </section>
         </main>
         <footer>
-
+            Written and coded by Matthew Arney
         </footer>
     </body>
 </html>
