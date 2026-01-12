@@ -1,27 +1,226 @@
 /* Make sure that padding behaves as expected */
 * {box-sizing:border-box}
 
+/* Reset margins and padding */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Hero Section Styles */
+.hero {
+  background: url("images/profile.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero-content {
+  max-width: 800px;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.hero h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 300;
+  opacity: 0.9;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  opacity: 0.8;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 0.75rem 2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.btn-primary {
+  background-color: white;
+  color: #667eea;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  font-weight: bold;
+}
+
+.btn-secondary:hover {
+  background-color: white;
+  color: #667eea;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #333;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-menu li {
+  margin: 0;
+}
+
+.navbar-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+  padding: 0.5rem;
+}
+
+.navbar-menu a:hover {
+  color: #667eea;
+}
+
 /* Container for skill bars */
 .container {
   width: 100%; /* Full width */
+  height: 40px;
   background-color: #ddd; /* Grey background */
 }
 
+/* Skills Bar base class*/
 .skills {
-  text-align: right; /* Right-align text */
-  padding-top: 10px; /* Add top padding */
-  padding-bottom: 10px; /* Add bottom padding */
-  color: white; /* White text color */
+  text-align: right; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  color: white;
+  height: 100%; 
+  background-color: rgba(128,128,128,1);
 }
 
-.python {width: 70%; background-color: chartreuse;} /*chartreuse*/
-.c {width: 20%; background-color: darkorange;} /*Dark Orange*/
-.cpp {width: 20%; background-color: darkmagenta;} /*Dark Magenta*/
-.mysql {width: 30%; background-color: maroon;} /*Maroon*/
-.html {width: 50%; background-color: #04AA6D;} /* Green */
-.css {width: 5%; background-color: #2196F3;} /* Blue */
-.vscode {width: 30%; background-color: #f44336;} /* Red */
-.mysqlworkshop {width: 15%; background-color: yellow;} /*Yellow*/
-.slack {width: 25%; background-color: #808080;} /* Dark Grey */
-.git {width: 50%; background-color: teal;} /*Teal*/
-.word {width: 40%; background-color: fuchsia;} /*Fuchsia*/
+/*Individual Skill Bars*/
+.odin {
+  width: 50%;
+  background-image: url(images/odin-o.png);
+  background-size: auto, 40px;
+  background-repeat: repeat-x;
+  background-position: left;
+}
+
+.python {
+  width: 70%;
+  background-image: url(images/python-logo.png);
+  background-size: auto, 40px;
+  background-repeat: repeat-x;
+}
+
+.c {
+  width: 40%;
+  background-image: url(images/c-logo.png);
+  background-size: auto, 40px;
+  background-repeat: repeat-x;
+}
+.cpp {
+  width: 10%;
+  background-image: url(images/cpp-logo.png);
+  background-size: auto, 40px;
+  background-repeat: repeat-x;
+}
+.mysql {
+  width: 40%;
+  background-image: url(images/mysql-logo.png);
+  background-size: auto, 40px;
+  background-repeat: repeat-x;
+}
+.html {
+  width: 50%;
+  background-image: url(images/html5-logo.png);
+  background-size: auto, 40px;
+  background-repeat: repeat-x;
+}
+.css {
+  width: 60%;
+  background-image: url(images/css3-logo.png);
+  background-size: auto, 40px;
+  background-repeat: repeat-x;
+}
+.javascript {
+  width: 70%;
+  background-image: url(images/js-logo.png);
+  background-size: auto, 40px;
+  background-repeat: repeat-x;
+}
+.typescript {
+  width: 60%;
+  background-image: url(images/ts-logo.png);
+  background-size: auto, 40px;
+  background-repeat: repeat-x;
+}
+.react {
+  width: 40%;
+  background-image: url(images/react-logo.png);
+  background-size: auto, 40px;
+  
+}
+.firebase {
+  width: 20%;
+  background-image: url(images/firebase-logo.png);
+  background-size: auto, 40px;
+  background-repeat: repeat-x;
+}
+.nodejs {
+  width: 10%;
+  background-image: url(images/node-logo.png);
+  background-size: auto, 40px;
+  background-repeat: repeat-x;
+}

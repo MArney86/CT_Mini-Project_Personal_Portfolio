@@ -5,25 +5,27 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <header>
-            <h1>Portfolio for Matthew Arney</h1>
-            <p><h4>Hello there!</h4></p>
-            <img src="images/profile.jpg" alt="Profile Photo of Matthew Arney">
-            <video width="720" height="840" controls>
-                <source src="images/Intro.mp4" type="video/mp4">
-                This browser does not support the HTML5 video tag
-            </video>
-            <p>This portfolio is designed to show off some of the accomplishments of Matthew Arney, a former Pastry Chef looking to enter the tech space as a Software Engineer</p>
-        </header>
-        <nav>
-            <p><h4>Navigation:</h4></p>
-            <ul>
+        <nav class="navbar">
+            <div class="navbar-brand">MA</div>
+            <ul class="navbar-menu">
+                <li><a href="#home">Home</a></li>
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact Me</a></li>
             </ul>
         </nav>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h1>Matthew Arney</h1>
+                <h2>Software Engineer | Former Pastry Chef</h2>
+                <p>Transforming creativity from the kitchen to code</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </section>
         <main>
             <section id="about">
                 <p><h3>About Me</h3></p>
@@ -37,7 +39,7 @@
                     <h4>Education:</h4>
                     <p>2003-2005 <a href="https://www.shsu.edu/">Sam Houston State University</a> Major in Computer Science (incomplete)</p>
                     <p>2007-2008 <a href="https://www.culinaryschools.org/top-culinary-schools/texas-culinary-academy/">Texas Culinary Academy</a> Certificate in Patisserie and Baking</p>
-                    <p>2024-2024 <a href="https://www.codingtemple.com">Coding Temple Software Engineering Bootcamp</a> (ongoing)</p>
+                    <p>2024-Present <a href="https://www.codingtemple.com">Coding Temple Software Engineering Bootcamp</a> (ongoing)</p>
                 </article>
                 <article>
                     <p>My personal interests include but are not limited to Model kit building, 3D modeling and animation, Game development, Vintage Hardware and Software and their preservation, Anime and Manga, Music and Music Production</p>
@@ -68,45 +70,49 @@
                 <div class="container">
                     <div class="skills python">70%</div>
                 </div>
+                <p>Odin</p>
+                <div class="container">
+                    <div class="skills odin">60%</div>
+                </div>
                 <p>C</p>
                 <div class="container">
-                    <div class="skills c">20%</div>
+                    <div class="skills c">40%</div>
                 </div>
                 <p>C++</p>
                 <div class="container">
-                    <div class="skills cpp">20%</div>
+                    <div class="skills cpp">10%</div>
                 </div>
                 <p>MySQL</p>
                 <div class="container">
-                    <div class="skills mysql">30%</div>
+                    <div class="skills mysql">40%</div>
                 </div>
                 <p>HTML</p>
                 <div class="container">
-                    <div class="skills html">50%</div>
+                    <div class="skills html">60%</div>
                 </div>
                 <p>CSS</p>
                 <div class="container">
-                    <div class="skills css">5%</div>
+                    <div class="skills css">60%</div>
                 </div>
-                <p>VSCode</p>
+                <p>Javascript</p>
                 <div class="container">
-                    <div class="skills vscode">30%</div>
+                    <div class="skills javascript">80%</div>
                 </div>
-                <p>MySQL Workshop</p>
+                <p>Typescript</p>
                 <div class="container">
-                    <div class="skills mysqlworkshop">25%</div>
+                    <div class="skills typescript">60%</div>
                 </div>
-                <p>Slack</p>
+                <p>React</p>
                 <div class="container">
-                    <div class="skills slack">25%</div>
+                    <div class="skills react">40%</div>
                 </div>
-                <p>Git</p>
+                <p>Firebase</p>
                 <div class="container">
-                    <div class="skills git">50%</div>
+                    <div class="skills firebase">20%</div>
                 </div>
-                <p>Microsoft Word</p>
+                <p>Node.js</p>
                 <div class="container">
-                    <div class="skills word">40%</div>
+                    <div class="skills nodejs">10%</div>
                 </div>
             </section>
             <section id="contact">

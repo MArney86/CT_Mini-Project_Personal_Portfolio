@@ -1,6 +1,49 @@
-# CT_Mini-Project_Personal_Portfolio
-Personal Portfolio Mini Project for Coding Temple Software Engineering Course
+# Personal Portfolio Website
 
-This is a simple portfolio page for myself (Matthew Arney) with images, ARIA elements, and skill bars added where applicable
-You can skip through the page using the navigation links at the beginning.
-Major sections include, About Me, Projects, Skills, and Contact Me.
+A professional portfolio website showcasing my skills, projects, and experience as a software engineer.
+
+## 📋 Overview
+
+This is a responsive personal portfolio website developed as part of the Coding Temple Software Engineering Course. The site features a modern, accessible design with smooth navigation and interactive elements to highlight my professional background and technical capabilities.
+
+## ✨ Features
+
+- **Responsive Design**: Fully optimized for desktop, tablet, and mobile devices
+- **Accessibility**: Implements ARIA labels and semantic HTML for screen reader compatibility
+- **Navigation**: Quick-skip navigation links for efficient browsing
+- **Interactive Skill Bars**: Visual representation of technical proficiency levels
+- **Project Showcase**: Detailed display of portfolio projects
+- **Contact Section**: Easy-to-use contact information and form
+
+## 🗂️ Page Sections
+
+- **About Me**: Personal introduction and professional background
+- **Projects**: Showcase of completed work and technical projects
+- **Skills**: Interactive skill bars displaying technical competencies
+- **Contact Me**: Contact information and methods to get in touch
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- Responsive Web Design
+- ARIA Accessibility Standards
+
+## 🚀 Getting Started
+
+1. Clone this repository
+2. Open `index.html` in your web browser
+3. Navigate through the portfolio sections using the navigation menu
+
+## 👤 Author
+
+**Matthew Arney**
+- Software Engineering Student at Coding Temple
+
+## 📝 License
+
+This project is part of an educational mini-project for Coding Temple.
+
+---
+
+*Last Updated: January 2026*
